@@ -1,6 +1,7 @@
 # **Review Scraper API**
 
-This project is a FastAPI-based web scraper designed to extract product reviews from e-commerce product pages. The scraper uses Playwright for browser automation and OpenAI's API for dynamically detecting CSS selectors for review elements.
+This project is a an FastAPI server capable of extracting reviews information from any given product page. The scraper uses Playwright for browser automation and OpenAI's API for dynamically detecting CSS selectors for review elements.
+This repository i have used 2717recovery webpage as example product page to test implementation.
 
 ---
 
@@ -25,7 +26,7 @@ This project is a FastAPI-based web scraper designed to extract product reviews 
 - Access the API Documentation for the swagger GUI of FastAPI: http://127.0.0.1:8000/docs
 ---
 ## **API Implementation Details**
-### **Technologies Used
+### **Technologies Used**
 - FastAPI: For building the RESTful API.
 - Playwright: For web scraping and extracting reviews dynamically.
 - OpenAI: To extract CSS selectors dynamically based on the webpage HTML structure.
